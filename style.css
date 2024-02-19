@@ -1,6 +1,7 @@
 @font-face {
-    font-family: monument;
+    font-family: monument-font;
     src: url(./fonts/MonumentExtended-Regular.otf);
+    src: url(./fonts/MonumentExtended-Ultrabold.otf);
 }
 
 * {
@@ -47,9 +48,10 @@ body::-webkit-scrollbar {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-family: monument;
+	font-family: monument-font;
 	letter-spacing: -1px;
 	position: relative;
+    font-size: 2vw;
 }
 
 #nav h1::after {
@@ -127,7 +129,7 @@ body::-webkit-scrollbar {
 }
 
 #over1 h1 {
-	font-family: monument;
+	font-family: monument-font;
 	font-size: 3.5vw;
 	transform: translate(0, 100%);
 	animation: textAnime 2s 2s forwards;
@@ -260,7 +262,7 @@ body::-webkit-scrollbar {
 #page3>h1 {
 	text-transform: uppercase;
 	text-align: center;
-	font-family: monument;
+	font-family: monument-font;
 	font-size: 3vw;
 	margin-bottom: 7vh;
 }
@@ -329,7 +331,7 @@ body::-webkit-scrollbar {
 }
 
 #page3 .elem .elem-part2 h1 {
-	font-size: 3vw;
+	font-size: 2.5vw;
 }
 
 #page3 .elem:hover h1 {
@@ -355,8 +357,8 @@ body::-webkit-scrollbar {
 
 #marque h1 {
 	display: inline-block;
-	font-family: monument;
-	font-size: 4vw;
+	font-family: monument-font;
+	font-size: 2.5vw;
 	text-transform: uppercase;
 	font-weight: 900;
 	-webkit-text-stroke: 2px black;
@@ -380,7 +382,7 @@ body::-webkit-scrollbar {
 
 #footer {
 	margin-top: 6vh;
-	font-family: monument;
+	font-family: monument-font;
 	height: 10vh;
 	width: 100%;
 	border-top: 2px solid #000;
