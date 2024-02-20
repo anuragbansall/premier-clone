@@ -382,8 +382,8 @@ body::-webkit-scrollbar {
 
 #footer {
 	margin-top: 6vh;
-	font-family: monument-font;
-	height: 10vh;
+	font-family: sans-serif;
+	height: 5vw;
 	width: 100%;
 	border-top: 2px solid #000;
 	display: flex;
@@ -392,6 +392,7 @@ body::-webkit-scrollbar {
 	font-size: 1rem;
 	word-spacing: -3px;
 	font-weight: 500;
+	padding: 2vw;
 }
 
 
@@ -595,10 +596,13 @@ body::-webkit-scrollbar {
 
 	#footer {
 		margin-top: 4vh;
-		height: 8vh;
+		height: 8vw;
 		border-top: 1.5px solid #000;
-		font-size: 0.5rem;
+		font-size: 3vw;
 		word-spacing: 1px;
-		padding-bottom: 1rem;
+		padding: 2vw;
+	}
+	#footer a{
+		color: #000;
 	}
 }
